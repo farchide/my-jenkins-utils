@@ -1,9 +1,11 @@
-@Library('utils')
+class Utils {
+    def info(def steps, String message)
+    {
+        echo "INFO: ${message}"
+    }
 
-def info(message) {
-    echo "INFO: ${message}"
-}
-
-def warning(message) {
-    echo "WARNING: ${message}"
+    def warning(def steps, String message) 
+    {
+        echo "WARNING: ${message}"
+    }
 }
